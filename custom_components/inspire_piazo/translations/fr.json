@@ -1,0 +1,27 @@
+{
+  "title": "Inspire Piazo",
+  "config": {
+    "step": {
+      "user": {
+        "title": "Ajouter un plafonnier Inspire Piazo",
+        "description": "L’intégration RFXCOM RFXtrx doit déjà être configurée. Le code de télécommande identifie un plafonnier appairé ; utilisez un code différent pour chaque plafonnier.",
+        "data": {
+          "name": "Nom",
+          "remote_code": "Code de télécommande"
+        },
+        "data_description": {
+          "name": "Nom affiché pour ce plafonnier.",
+          "remote_code": "Quatre chiffres hexadécimaux du code radio de 24 bits (F120 pour une commande telle que F12001)."
+        }
+      }
+    },
+    "error": {
+      "invalid_remote_code": "Saisissez exactement quatre chiffres hexadécimaux, par exemple F120.",
+      "name_required": "Saisissez un nom.",
+      "rfxtrx_not_configured": "Configurez l’intégration RFXCOM RFXtrx avant d’ajouter ce plafonnier."
+    },
+    "abort": {
+      "already_configured": "Un plafonnier utilisant ce code de télécommande est déjà configuré."
+    }
+  }
+}

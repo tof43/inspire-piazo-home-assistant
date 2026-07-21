@@ -1,0 +1,27 @@
+{
+  "title": "Inspire Piazo",
+  "config": {
+    "step": {
+      "user": {
+        "title": "Add an Inspire Piazo ceiling light",
+        "description": "An RFXCOM RFXtrx integration must already be configured. The remote code identifies one paired ceiling light; use a different code for each light.",
+        "data": {
+          "name": "Name",
+          "remote_code": "Remote code"
+        },
+        "data_description": {
+          "name": "Name displayed for this ceiling light.",
+          "remote_code": "Four hexadecimal digits from the 24-bit remote command (F120 for a command such as F12001)."
+        }
+      }
+    },
+    "error": {
+      "invalid_remote_code": "Enter exactly four hexadecimal digits, for example F120.",
+      "name_required": "Enter a name.",
+      "rfxtrx_not_configured": "Configure the RFXCOM RFXtrx integration before adding this ceiling light."
+    },
+    "abort": {
+      "already_configured": "A ceiling light with this remote code is already configured."
+    }
+  }
+}

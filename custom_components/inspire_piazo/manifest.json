@@ -1,0 +1,13 @@
+{
+  "domain": "inspire_piazo",
+  "name": "Inspire Piazo",
+  "codeowners": ["@tof43"],
+  "config_flow": true,
+  "dependencies": ["rfxtrx"],
+  "documentation": "https://github.com/tof43/inspire-piazo-home-assistant",
+  "integration_type": "device",
+  "iot_class": "assumed_state",
+  "issue_tracker": "https://github.com/tof43/inspire-piazo-home-assistant/issues",
+  "requirements": [],
+  "version": "0.1.0"
+}
